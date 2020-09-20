@@ -2,3 +2,4 @@ build/*
 luna_pinyin.userdb/*
 installation.yaml
 user.*
+.DS_Store
