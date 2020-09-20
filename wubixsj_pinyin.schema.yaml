@@ -11,8 +11,8 @@ schema:
   description: |
     五笔新世纪拼音
   dependencies:
-    - pinyin_simp
     - wubi_xinshiji
+    - pinyin_simp_wubicomment
 
 switches:
   - name: ascii_mode
@@ -74,7 +74,7 @@ abc_segmentor:
     - reverse_lookup
 
 reverse_lookup:
-  dictionary: pinyin_simp
+  dictionary: pinyin_simp_wubicomment
   prefix: "`"
   suffix: "'"
   tips: [拼音]

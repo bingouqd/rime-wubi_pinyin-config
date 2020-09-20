@@ -12,6 +12,7 @@ patch:
     - schema: wubi_xinshiji
     - schema: wubi86
     - schema: pinyin_simp
+    - schema: pinyin_simp_wubicomment
 
   # Menu
   menu:
