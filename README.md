@@ -1,10 +1,13 @@
 # rime输入法，五笔新世纪拼音混输方案
 # 效果图：
- ![image text](https://gitee.com/YanFung/rime/raw/master/img/1.png)
+![MacStyle](https://gitee.com/wang-pc/rime-xinshiji_wubi_pinyin-config/raw/master/img/wubicomment1.png)
 
- ![image text](https://gitee.com/YanFung/rime/raw/master/img/2.png)
+![MacWubiComment](https://gitee.com/wang-pc/rime-xinshiji_wubi_pinyin-config/raw/master/img/wubicomment2.png)
+
+![WindowsStyle](https://gitee.com/wang-pc/rime-xinshiji_wubi_pinyin-config/raw/master/img/window.png)
 
 # 存放位置：
+
 ###   linux                            ：~/.config/fcitx/rime  
 ###   Mac                             ：~/Library/Rime      
 ###   Windows                   ：%APPDATA%\Rime 
