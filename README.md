@@ -1,5 +1,13 @@
 # rime输入法，五笔新世纪拼音混输方案
 # 效果图：
+
+## 输入中反查带tip
+
+![tip1](https://gitee.com/wang-pc/rime-xinshiji_wubi_pinyin-config/raw/master/img/wubitip1.png)
+![tip2](https://gitee.com/wang-pc/rime-xinshiji_wubi_pinyin-config/raw/master/img/wubitip2.png)
+
+## 输入文本中添加tip
+
 ![MacStyle](https://gitee.com/wang-pc/rime-xinshiji_wubi_pinyin-config/raw/master/img/wubicomment1.png)
 
 ![MacWubiComment](https://gitee.com/wang-pc/rime-xinshiji_wubi_pinyin-config/raw/master/img/wubicomment2.png)
