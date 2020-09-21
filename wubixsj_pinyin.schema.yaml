@@ -12,7 +12,7 @@ schema:
     五笔新世纪拼音
   dependencies:
     - wubi_xinshiji
-    - pinyin_simp_wubicomment
+    - pinyin_simp
 
 switches:
   - name: ascii_mode
@@ -74,17 +74,25 @@ abc_segmentor:
     - reverse_lookup
 
 reverse_lookup:
-  dictionary: pinyin_simp_wubicomment
+  dictionary: pinyin_simp
+  spelling_hints: 10
+  overwrite_comment: true
   prefix: "`"
   suffix: "'"
   tips: [拼音]
+  tags:
+    - wubi_lookup
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
-  comment_format:                           # 隐藏输入实时提示编码
-    - xform/[a-z]//
-    - xform/~//
+
+wubi_lookup:
+  dictionary: wubi_xinshiji
+  tag: wubi_lookup
+  spelling_hints: 10
+  tips: [五笔编码提示]
+
 punctuator:
   import_preset: default
 
