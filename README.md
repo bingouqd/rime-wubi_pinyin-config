@@ -39,4 +39,8 @@
 -   wubi_xinshiji.dict.yaml       # 输入码表 - 新世纪五笔
 -   wubi_xinshiji.schema.yaml     # 输入方案 - 新世纪五笔
 -   wubixsj_pinyin.schema.yaml    # 输入方案 - 新世纪五笔拼音混输
+-   wb.graffle                    # 五笔字根变化图
 
+# 参考材料
+
+1. 五笔学习推荐: https://mp.weixin.qq.com/s?__biz=MzA3NTU5MjY5Mg==&mid=2247483895&idx=1&sn=96373325b87c1e561ea5317dfb36b297&chksm=9f6f676ca818ee7aa645b03125b3186e19a88dca69622c75e4ff86c672743f9792d5a2f8bc48&token=591831096&lang=zh_CN#rd
